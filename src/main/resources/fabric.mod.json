@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pathcleaner",
+  "version": "${version}",
+  "name": "Path Cleaner",
+  "description": "Right-click a Dirt Path with a stick to convert all connected path blocks into grass blocks.",
+  "authors": [
+    "GitHub Copilot"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.pathcleaner.PathCleanerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.11",
+    "java": ">=21"
+  }
+}
